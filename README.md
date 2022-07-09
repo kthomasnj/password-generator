@@ -7,7 +7,6 @@
 * I WANT: To randomly generate a password that meets certain criteria
 * SO THAT I: Can create a strong password that provides greater security
 <br>
-<br>
 
 ## Acceptance Criteria
 ---
@@ -29,18 +28,17 @@
 * WHEN: the password is generated
 * THEN: the password is either displayed in an alert or written to the page
 <br>
-<br>
 
 ## Mock-Up
 ![Password Generator Mock-Up](./assets/images/password-generator.png)
 <br>
-<br>
+
 
 ## Deployed Site
 ---
 https://kthomasnj.github.io/password-generator/
 <br>
-<br>
+
 
 ---
 © 2022 Keith S. Thomas
