@@ -27,6 +27,11 @@ function generatePassword() {
     var newPwdString = "";
     var pwd = "";
 
+    if (pwdUpCase === !true && pwdLwrCase === !true && pwdSpecChar === !true && pwdNumber === !true) {
+      alert("You must choose a password option to generate a password.");
+      return pwd = "You must choose a password option to generate a password.";
+    }
+
     // Loop through 4 variables to produce password options
 
     for (i = 0; i < pwdLength; i++) {
